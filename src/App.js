@@ -6,6 +6,7 @@ function App(props) {
   const itemsList = props.store.lists.map(function(list) {
     return <List header={list.header} cards={list.cardIds.map(id=> props.store.allCards[id])} key={list.id}/>
   });
+  console.log(itemsList);
   return (
     <main className='App'>
       <header class="App-header">

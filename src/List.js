@@ -8,10 +8,10 @@ function List(props){
       });
     return (
         <section className="List">
-            <header class="List-header">
+            <header className="List-header">
                 <h2>{props.header}</h2>
             </header>
-            <div class="List-cards">
+            <div className="List-cards">
                 {cardList}
             </div>
         </section>
